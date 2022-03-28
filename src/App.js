@@ -22,7 +22,7 @@ const useExperiment = (experimentId) => {
 };
 
 const App = () => {
-  const variant = useExperiment('0_5HsReYTVaZ0WVP-9CnCA');
+  const variant = useExperiment('0_5HsReYTVaZ0WVP-9CnCA'); //Replace the Id into Optimize Experiment ID
   console.log(variant);
   return (
     <div className="App">

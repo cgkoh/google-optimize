@@ -25,15 +25,18 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- Replace the id below with container Id from optimize-->
     <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NGCFCZ4"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Replace the id below from Analytics MEASUREMENT ID-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BG4NZ17VV7"></script>
+    <!-- Replace the MEASUREMENT ID and container Id below-->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-BG4NZ17VV7', {'optimize_id':'OPT-NGCFCZ4'});
+      gtag('config', MEASUREMENT_ID, {'optimize_id':CONTAINER_ID});
     </script>
   </head>
   <body>
